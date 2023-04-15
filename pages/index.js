@@ -1,4 +1,7 @@
-import Link from 'next/link'
+import HomeScreen from '../src/screens/HomeScreen';
+
+export default HomeScreen;
+/*import Link from 'next/link'
 
 function TitleStile ({ children, as }) {
     const Tag = as;
@@ -23,4 +26,4 @@ export default function index (){
             <Link href="/faq">ir para FAQ</Link>
         </div>
     )
-}
+}*/
