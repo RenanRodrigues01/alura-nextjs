@@ -4,7 +4,7 @@ import { theme } from '../../theme/theme';
 import { Image, Box, Text, Icon, Input, Button } from '../../theme/components';
 
 const LOGO_ALURA_URL = '/images/alura-logo.svg';
-const SIDE_IMAGE_URL = '/images/alura-cases.png'
+const SIDE_IMAGE_URL = '/images/alura-cases.png';
 
 function SideImage() {
   return (
