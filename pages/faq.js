@@ -1,5 +1,7 @@
-import Link from 'next/link'
-import Head from 'next/head'
+
+import FAQScreen from '../src/screens/FAQScreen';
+
+export default FAQScreen;
 
 export async function getStaticProps() {
     const Faq_URL = 'https://gist.githubusercontent.com/omariosouto/0ceab54bdd8182cbd1a4549d32945c1a/raw/578ad1e8e5296fa048e3e7ff6b317f7497b31ad9/alura-cases-faq.json'
@@ -15,7 +17,7 @@ export async function getStaticProps() {
     }
 }
 
-export default function FaqPage ({ faq }) {
+/*export default function FaqPage ({ faq }) {
     return(
         <div>
             <Head>
@@ -37,4 +39,4 @@ export default function FaqPage ({ faq }) {
             </div>
         </div>
     )
-}
+}*/
